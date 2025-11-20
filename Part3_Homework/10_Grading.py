@@ -6,4 +6,17 @@
 # 80-89: B
 # 70-79: C
 # 60-69: D
-# Below 60: F
+# Below 60: F 
+
+score = int(input("What is your score? "))
+if score>=90 and score<=100:
+    print("A")
+if score>=80 and score<=89:
+    print("B")
+if score>=70 and score<=79:
+    print("C")
+if score>=60 and score<=69:
+    print("D")
+if score<60 and score>=0:
+    print("F")
+    

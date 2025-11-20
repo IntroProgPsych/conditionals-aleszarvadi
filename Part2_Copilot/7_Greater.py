@@ -20,3 +20,12 @@
 # The numbers are equal!
 
 # Write your code here:
+
+number1 = int(input("Please type in the first number: "))
+number2 = int(input("Please type in another number: "))
+if number1>number2:
+    print(number1)
+if number1<number2:
+    print(number2)
+if number1 == number2:
+    print("The numbers are equal!")
